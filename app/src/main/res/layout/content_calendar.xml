@@ -100,7 +100,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:text="Button"
-                android:textSize="18dp"
                 android:background="#9D9FD0"
                 android:textAllCaps="false"
                 android:clickable="false"/>
@@ -110,7 +109,6 @@
                 android:layout_column="1"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
-                android:textSize="18dp"
                 android:clickable="false"
                 android:textAllCaps="false"
                 android:background="#81C856"
