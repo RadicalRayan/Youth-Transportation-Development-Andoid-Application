@@ -78,7 +78,46 @@
         android:numColumns="5"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:stretchColumns="0, 1"
         android:layout_below="@+id/table"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/gridView"
+        android:paddingTop="20dp"
+        android:layout_toEndOf="@+id/tst"
+        android:stretchColumns="0, 1"
+        android:layout_toRightOf="@+id/tst">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/pointsUntil"
+                android:layout_column="0"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Button"
+                android:textSize="18dp"
+                android:background="#9D9FD0"
+                android:textAllCaps="false"
+                android:clickable="false"/>
+
+            <Button
+                android:id="@+id/points"
+                android:layout_column="1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="18dp"
+                android:clickable="false"
+                android:textAllCaps="false"
+                android:background="#81C856"
+                android:text="Button" />
+        </TableRow>
+
+    </TableLayout>
 
 
 </RelativeLayout>
